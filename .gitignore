@@ -1,0 +1,40 @@
+# ---- Secrets and private data: NEVER commit these ----
+.env
+.env.*
+!.env.example
+admin_password.txt
+*.pem
+*.key
+*.crt
+secrets.*
+
+# ---- Local database (created automatically on first run; contains customer messages) ----
+paul_optical.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# ---- Node (not used today, kept in case a build step is added) ----
+node_modules/
+
+# ---- Logs, editors, operating-system files ----
+*.log
+logs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp

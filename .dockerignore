@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+admin_password.txt
+paul_optical.db
+*.db
+__pycache__/
+.git/
+.venv/
+tests/
+tools/
+docs/
